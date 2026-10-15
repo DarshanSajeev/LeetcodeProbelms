@@ -20,7 +20,7 @@ jobs:
         run: |
           DATE=$(date -u +"%Y-%m-%d")
           mkdir -p daily
-          echo "File created on $DATE" > "daily/$DATE.txt"
+          echo "File created on $DATE" > "daily/$DATE.py"
 
       - name: Commit and push
         run: |
